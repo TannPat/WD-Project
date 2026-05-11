@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #121212;
+	color: white;
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+#coin {
+	font-size: 8rem;
+	margin-bottom: 20px;
+	transition: transform 0.5s;
+}
+
+#result {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 12px 22px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin: 5px;
+}

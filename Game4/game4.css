@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: #121212;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	text-align: center;
+	width: 90%;
+	max-width: 600px;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 3rem;
+}
+
+.scoreboard {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.score h2 {
+	margin-bottom: 10px;
+}
+
+.score p {
+	font-size: 2rem;
+}
+
+.choices {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+.choice {
+	padding: 15px 25px;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 8px;
+	background: #00adb5;
+	color: white;
+	cursor: pointer;
+	transition:
+		transform 0.2s,
+		background 0.2s;
+}
+
+.choice:hover {
+	background: #01939a;
+	transform: scale(1.05);
+}
+
+.result {
+	margin-bottom: 25px;
+}
+
+#result-text {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+#moves {
+	font-size: 1.1rem;
+	color: #cccccc;
+}
+
+#restart,
+#home {
+	padding: 12px 24px;
+	font-size: 1rem;
+	border: none;
+	border-radius: 8px;
+	background: #ff5722;
+	color: white;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+#restart:hover {
+	background: #e64a19;
+}

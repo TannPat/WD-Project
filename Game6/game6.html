@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Clicker</title>
+    <link rel="stylesheet" href="game6.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Idle Clicker</h1>
+
+        <div class="score-box">
+            <h2>Points</h2>
+            <div id="points">0</div>
+        </div>
+
+        <button id="click-btn">Generate Points</button>
+
+        <div class="upgrades">
+            <div class="upgrade">
+                <h3>Cursor Upgrade</h3>
+                <p>+1 per click</p>
+                <p>Cost: <span id="cursor-cost">10</span></p>
+                <button id="buy-cursor">Buy</button>
+            </div>
+
+            <div class="upgrade">
+                <h3>Auto Clicker</h3>
+                <p>+1 point/sec</p>
+                <p>Cost: <span id="auto-cost">50</span></p>
+                <button id="buy-auto">Buy</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <p>Click Power: <span id="click-power">1</span></p>
+            <p>Auto Clickers: <span id="auto-count">0</span></p>
+        </div>
+
+        <a href="../homepage.html">
+            <button id="home">Back to Home</button>
+        </a>
+    </div>
+
+    <script src="game6.js"></script>
+</body>
+
+</html>

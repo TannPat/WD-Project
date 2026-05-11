@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #111;
+	color: white;
+}
+
+header {
+	font-family: "Press Start 2P", system-ui;
+	text-align: center;
+	padding: 20px;
+	background: #222;
+}
+
+.games-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	padding: 30px;
+}
+
+.card {
+	background: #333;
+	padding: 40px;
+	border-radius: 10px;
+	font-family: "Press Start 2P", system-ui;
+	text-align: center;
+	text-decoration: none;
+	color: cyan;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+#game1 {
+	background: url(gameImgs/game1SS.png);
+	background-size: cover;
+}
+
+#game2 {
+	background: url(gameImgs/game2SS.png);
+	background-size: cover;
+}
+
+#game3 {
+	background: url(gameImgs/game3SS.png);
+	background-size: cover;
+}
+
+#game4 {
+	background: url(gameImgs/game4SS.png);
+	background-size: cover;
+}
+
+#game5 {
+	background: url(gameImgs/game5SS.png);
+	background-size: cover;
+}
+
+#game6 {
+	background: url(gameImgs/game6SS.png);
+	background-size: cover;
+}
+
+#game7 {
+	background: url(gameImgs/game7SS.png);
+	background-size: cover;
+}
+
+#game8 {
+	background: url(gameImgs/game8SS.png);
+	background-size: cover;
+}
+
+#game9 {
+	background: url(gameImgs/game9SS.png);
+	background-size: cover;
+}
+
+#game10 {
+	background: url(gameImgs/game10SS.png);
+	background-size: cover;
+}
+
+#game11 {
+	background: url(gameImgs/game11SS.png);
+	background-size: cover;
+}
+
+#game12 {
+	background: url(gameImgs/game12SS.png);
+	background-size: cover;
+}
